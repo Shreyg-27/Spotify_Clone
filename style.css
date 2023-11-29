@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Ubuntu&family=Varela+Round&display=swap');
+
+body{
+    background-color:#B0BFD1;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.home{
+    cursor: pointer;
+}
+
+.homepage{
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    width: 10%;
+    border-radius: 12px;
+    color: white;
+    margin-left: 42%;
+}
+
+.containerHome{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-size: cover;
+}
+
+.about{
+    cursor: pointer;
+}
+
+.aboutpage{
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    width: 10%;
+    border-radius: 12px;
+    color: white;
+    margin-left: 42%;
+}
+
+.containerAbout{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-size: cover;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+
+
+.playlist1 img{
+    align-items: center;
+    padding-top: 60px;
+    cursor: pointer;
+}
+
+.playlist2 img{
+    align-items: center;
+    padding-top: 60px;
+    cursor: pointer;
+}
+
+.playlist1{
+    padding-right: 100px;
+}
+
+.playlist2{
+    padding-left: 100px;
+}
+
+span.playlistName1{
+    padding-left: 100px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+span.playlistName2{
+    padding-left: 100px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.playlist1 img {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: 250px;
+    margin-top: 100px;
+}
+
+.playlist2 img {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: 250px;
+    height: 264px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
